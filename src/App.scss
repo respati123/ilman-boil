@@ -1,0 +1,36 @@
+.App {
+    text-align: center;
+    margin: 10em auto;
+    width: 50%;
+    background-color: red;
+}
+
+.todo__container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+
+    .todo__input {
+        padding: 0.5em; 
+        border-radius: .4em;
+        outline: none;
+        margin: .5em 2em;
+    }
+
+    .todo__button {
+        padding: 0.5em; 
+        margin: 0em 2em;
+        
+    }
+}
+
+.input-todolist {
+
+    padding: 0.5em;
+    border: none;
+    background-color: #ffff;
+    border-radius: 3px;
+    border: 1px solid black;
+}
