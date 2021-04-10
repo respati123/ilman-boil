@@ -2,7 +2,6 @@
     text-align: center;
     margin: 10em auto;
     width: 50%;
-    background-color: red;
 }
 
 .todo__container {
@@ -33,4 +32,24 @@
     background-color: #ffff;
     border-radius: 3px;
     border: 1px solid black;
+}
+
+
+.login__container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    
+    .form__input {
+        margin: auto;
+        margin-top: .5em;
+        width: 100%;
+        padding: .4em;
+        border-radius: 5px;
+        outline: none;
+
+
+    }
+
 }
